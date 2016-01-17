@@ -11,11 +11,18 @@
     <!--sp.runtime.js and sp.js both required to get client context in SharePoint-->
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
-    
+    <script type="text/javascript" src="../Scripts/angular.js"></script>
     <!--App Libraries-->
-    <script type="text/javascript" src="../Scripts/App.js"></script>
+    <script type="text/javascript" src="../Scripts/app.angular.js"></script>
+    <script type="text/javascript" src="../Scripts/MainController.js"></script>
+    <script type="text/javascript" src="../Scripts/SharePointJSOMService.js"></script>
 </head>
-<body>
-    <div id="message"></div>
+<body data-ng-app="FeedbackApp">
+    <div data-ng-controller="MainController">
+        UserName:
+        <div id="message">{{UserName}}</div> 
+        <div>{{ErrorMessage}}</div>
+    </div>
+    
 </body>
 </html>
