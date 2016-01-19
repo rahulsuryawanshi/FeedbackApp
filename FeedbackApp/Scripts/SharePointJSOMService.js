@@ -20,8 +20,7 @@
 
         };
 
-        return
-        {
+        return {
             getCurrentUser: getCurrentUser
         };
     };

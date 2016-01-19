@@ -16,7 +16,14 @@
         }
         //Calling Angular Service which returns promise object
         //Then calling SuccessCallBack and FailureCallack functions
-        SharePointJSOMService.getCurrentUser().then(onUserSuccess, onUserFail);
+        //SharePointJSOMService.getCurrentUser().then(onUserSuccess, onUserFail);
+        SharePointJSOMService.getCurrentUser()
+        .then(function (data) {
+            $scope.UserName = data;
+        }).catch(function (error) {
+            console.log("Error:" + error);
+            alert(error);
+        });
 
         
         
