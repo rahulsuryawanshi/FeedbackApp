@@ -10,7 +10,7 @@
     <RootNamespace>FeedbackApp</RootNamespace>
     <AssemblyName>FeedbackApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
@@ -47,8 +47,12 @@
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5803d169-2946-4d07-8933-82f3df80ccd7}</SharePointProjectItemId>
     </None>
-    <Content Include="Scripts\app.angular.js" />
-    <Content Include="Scripts\MainController.js" />
+    <Content Include="App\app.angular.js" />
+    <Content Include="App\Layout\spAppChrome.html" />
+    <Content Include="App\Layout\spAppChrome.js" />
+    <Content Include="App\MainController.js" />
+    <Content Include="App\Services\spContext.js" />
+    <Content Include="App\util\jquery-extensions.js" />
     <Content Include="Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <None Include="SharePointProjectItem.spdata">
@@ -70,7 +74,7 @@
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\SharePointJSOMService.js" />
+    <Content Include="App\SharePointJSOMService.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -108,9 +112,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

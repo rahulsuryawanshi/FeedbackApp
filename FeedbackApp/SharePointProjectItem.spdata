@@ -2,5 +2,12 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="App\SharePointJSOMService.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\MainController.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\app.angular.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\spAppChrome.js" Target="App\Layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\spAppChrome.html" Target="App\Layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Services\spContext.js" Target="App\Services\" Type="ElementFile" />
+    <ProjectItemFile Source="App\util\jquery-extensions.js" Target="App\util\" Type="ElementFile" />
   </Files>
 </ProjectItem>

@@ -11,13 +11,17 @@
     <!--sp.runtime.js and sp.js both required to get client context in SharePoint-->
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
+    <script type="text/javascript" src="/_layouts/15/SP.UI.Controls.js"></script>
     <script type="text/javascript" src="../Scripts/angular.js"></script>
+    
     <!--App Libraries-->
-    <script type="text/javascript" src="../Scripts/app.angular.js"></script>
-    <script type="text/javascript" src="../Scripts/MainController.js"></script>
-    <script type="text/javascript" src="../Scripts/SharePointJSOMService.js"></script>
+    <script type="text/javascript" src="../App/app.angular.js"></script>
+    <script type="text/javascript" src="../App/MainController.js"></script>
+    <script type="text/javascript" src="../App/SharePointJSOMService.js"></script>
+    <script type="text/javascript" src="../App/Layout/spAppChrome.js"></script>
 </head>
 <body data-ng-app="FeedbackApp">
+    <div data-ng-include="'../App/Layout/spAppChrome.html'"></div>    
     <div data-ng-controller="MainController">
         UserName:
         <div id="message">{{UserName}}</div> 

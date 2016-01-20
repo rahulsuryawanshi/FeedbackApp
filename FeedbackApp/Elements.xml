@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="RootModule">
+    <File Path="App\SharePointJSOMService.js" Url="App/SharePointJSOMService.js" ReplaceContent="TRUE" />
+    <File Path="App\MainController.js" Url="App/MainController.js" ReplaceContent="TRUE" />
+    <File Path="App\app.angular.js" Url="App/app.angular.js" ReplaceContent="TRUE" />
+    <File Path="App\Layout\spAppChrome.js" Url="App/Layout/spAppChrome.js" ReplaceContent="TRUE" />
+    <File Path="App\Layout\spAppChrome.html" Url="App/Layout/spAppChrome.html" ReplaceContent="TRUE" />
+    <File Path="App\Services\spContext.js" Url="App/Services/spContext.js" ReplaceContent="TRUE" />
+    <File Path="App\util\jquery-extensions.js" Url="App/util/jquery-extensions.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>
