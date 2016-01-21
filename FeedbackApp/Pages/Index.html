@@ -13,12 +13,25 @@
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <script type="text/javascript" src="/_layouts/15/SP.UI.Controls.js"></script>
     <script type="text/javascript" src="../Scripts/angular.js"></script>
-    
+    <script type="text/javascript" src="../Scripts/angular-cookies.js"></script>
     <!--App Libraries-->
+
+    <!--My Libraries-->
+    <script type="text/javascript" src="../App/util/jquery-extensions.js"></script>
+    <!-- app bootstrapping (used to get the app going) -->
     <script type="text/javascript" src="../App/app.angular.js"></script>
-    <script type="text/javascript" src="../App/MainController.js"></script>
-    <script type="text/javascript" src="../App/SharePointJSOMService.js"></script>
+
+    <!-- common modules -->
+
+    <!-- app core -->
     <script type="text/javascript" src="../App/Layout/spAppChrome.js"></script>
+    <!-- app controllers -->
+    <script type="text/javascript" src="../App/MainController.js"></script>
+
+    <!-- app services -->
+    <script type="text/javascript"  src="../App/Services/spContext.js"></script>
+    <script type="text/javascript" src="../App/SharePointJSOMService.js"></script>
+    
 </head>
 <body data-ng-app="FeedbackApp">
     <div data-ng-include="'../App/Layout/spAppChrome.html'"></div>    

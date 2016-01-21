@@ -1,4 +1,5 @@
-﻿/// <reference path="d:\rahul\poc\sharepointhosted\feedbackapp\feedbackapp\scripts\angular.js" />
+﻿/// <reference path="../Services/spContext.js" />
+/// <reference path="d:\rahul\poc\sharepointhosted\feedbackapp\feedbackapp\scripts\angular.js" />
 
 (function () {
     'use strict';
@@ -7,7 +8,7 @@
     //angular.module("FeedbackApp").controller(controllerId, ['$rootScope', spAppChrome]);
     var feedbackApp = angular.module("FeedbackApp");
     //create controller
-    function spAppChrome($rootScope)
+    function spAppChrome($rootScope, spContext)
     {
         var vm = this;
         var spChromeControlData = undefined;
@@ -15,8 +16,9 @@
         init();
         function init() {
             spChromeControlData = {
-                siteUrl: 'http://www.google.com',
-                siteTitle: 'My DevSite',
+                siteUrl: spContext.hostWeb.url,
+                siteTitle: spContext.hostWeb.title,
+                appIconUrl:spContext.hostWeb.logoUrl,
                 appTitle: 'Feedback App',
                 settingsLinks: [
                     {
