@@ -55,7 +55,6 @@
     <Content Include="App\util\jquery-extensions.js" />
     <Content Include="Elements.xml" />
     <Content Include="Pages\Elements.xml" />
-    <None Include="Scripts\angular-cookies.min.js.map" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{535fbc4e-fc5b-441a-9fc0-06b24617917e}</SharePointProjectItemId>
     </None>
@@ -67,8 +66,6 @@
       <SharePointProjectItemId>{bf1259a4-d09b-408f-8cd7-ac1171927267}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Index.html" />
-    <Content Include="Scripts\angular-cookies.js" />
-    <Content Include="Scripts\angular-cookies.min.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
