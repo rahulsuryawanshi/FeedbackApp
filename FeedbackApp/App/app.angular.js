@@ -1,6 +1,6 @@
 ﻿/// <reference path="angular.js" />
 (function () {
     //Registering angular app
-    var feedbackApp = angular.module('FeedbackApp', []);
+    var feedbackApp = angular.module('FeedbackApp', ['ngCookies']);
 
 }());
