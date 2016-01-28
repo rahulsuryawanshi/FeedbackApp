@@ -55,7 +55,7 @@
     <Content Include="App\Layout\header.html" />
     <Content Include="App\Layout\header.js" />
     <Content Include="App\Layout\quicklaunch.html" />
-    <Content Include="App\Layout\quicklaunch.js" />
+    <Content Include="App\quicklaunch.js" />
     <Content Include="App\Layout\spAppChrome.html" />
     <Content Include="App\Layout\spAppChrome.js" />
     <Content Include="App\MainController.js" />
