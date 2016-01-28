@@ -15,6 +15,6 @@
     <File Path="App\dashboard\dashboard.html" Url="App/dashboard/dashboard.html" ReplaceContent="TRUE" />
     <File Path="App\dashboard\dashboard.js" Url="App/dashboard/dashboard.js" ReplaceContent="TRUE" />
     <File Path="App\Layout\quicklaunch.html" Url="App/Layout/quicklaunch.html" ReplaceContent="TRUE" />
-    <File Path="App\quicklaunch.js" Url="App/quicklaunch.js" ReplaceContent="TRUE" />
+    <File Path="App\Layout\quicklaunch.js" Url="App/Layout/quicklaunch.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

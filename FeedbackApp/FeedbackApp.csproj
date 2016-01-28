@@ -55,7 +55,7 @@
     <Content Include="App\Layout\header.html" />
     <Content Include="App\Layout\header.js" />
     <Content Include="App\Layout\quicklaunch.html" />
-    <Content Include="App\quicklaunch.js" />
+    <Content Include="App\Layout\quicklaunch.js" />
     <Content Include="App\Layout\spAppChrome.html" />
     <Content Include="App\Layout\spAppChrome.js" />
     <Content Include="App\MainController.js" />
@@ -66,6 +66,7 @@
     <Content Include="Pages\Elements.xml" />
     <None Include="Scripts\angular-cookies.min.js.map" />
     <None Include="Scripts\angular-route.min.js.map" />
+    <None Include="Scripts\angular-sanitize.min.js.map" />
     <None Include="Scripts\angular.min.js.map" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{535fbc4e-fc5b-441a-9fc0-06b24617917e}</SharePointProjectItemId>
@@ -82,6 +83,8 @@
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\Elements.xml" />

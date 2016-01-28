@@ -3,7 +3,8 @@
     //Registering angular app
     var feedbackApp = angular.module('FeedbackApp', [
         'ngRoute',
-        'ngCookies'
+        'ngCookies',
+        'ngSanitize',   // fixes HTML issues in data binding
     ]);
 
     // startup code

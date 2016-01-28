@@ -6,10 +6,11 @@
             <div class="noindex ms-core-listMenu-verticalBox">
                 <ul class="noindex ms-core-listMenu-root static">
                     <li class="static" data-ng-repeat="route in vm.navRoutes" data-ng-class="{selected: vm.isCurrent(route)}">
+                        <!--data-ng-bind-html requires ngSanitize service -->
                         <a href="#{{route.url}}"
                            data-ng-bind-html="route.config.settings.content"
                            class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode"
-                           data-ng-class="{selected:vm.isCurrent(route), 'ms-core-listMenu-selected':vm.isCurrent(route)}">{{route.config.title}}</a>
+                           data-ng-class="{selected:vm.isCurrent(route), 'ms-core-listMenu-selected':vm.isCurrent(route)}"></a>
                     </li>
                 </ul>
             </div>

@@ -16,6 +16,6 @@
     <ProjectItemFile Source="App\dashboard\dashboard.html" Target="App\dashboard\" Type="ElementFile" />
     <ProjectItemFile Source="App\dashboard\dashboard.js" Target="App\dashboard\" Type="ElementFile" />
     <ProjectItemFile Source="App\Layout\quicklaunch.html" Target="App\Layout\" Type="ElementFile" />
-    <ProjectItemFile Source="App\quicklaunch.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\quicklaunch.js" Target="App\Layout\" Type="ElementFile" />
   </Files>
 </ProjectItem>
