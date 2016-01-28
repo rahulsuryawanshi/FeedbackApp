@@ -3,7 +3,12 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <title></title>
+    <link href="/_layouts/15/1033/styles/forms.css" rel="stylesheet" />
+    <link href="../Content/font-awesome.css" rel="stylesheet" />
+    <link href="../Content/App.css" rel="stylesheet" />
+
     <!--Vendor libraries-->
     <script type="text/javascript" src="../Scripts/jquery-1.9.1.js"></script>
     <!--MicrosoftAjax.js library is needed for HTML pages.In case of asp.net, you don't need this reference-->
@@ -14,19 +19,25 @@
     <script type="text/javascript" src="/_layouts/15/SP.UI.Controls.js"></script>
     <script type="text/javascript" src="../Scripts/angular.js"></script>
     <script type="text/javascript" src="../Scripts/angular-cookies.js"></script>
+    <script type="text/javascript" src="../Scripts/angular-route.js"></script>
     <!--App Libraries-->
 
     <!--My Libraries-->
     <script type="text/javascript" src="../App/util/jquery-extensions.js"></script>
     <!-- app bootstrapping (used to get the app going) -->
     <script type="text/javascript" src="../App/app.angular.js"></script>
+    <script type="text/javascript" src="../App/config.angular.http.js"></script>
+    <script type="text/javascript" src="../App/config.route.js"></script>
 
     <!-- common modules -->
 
     <!-- app core -->
     <script type="text/javascript" src="../App/Layout/spAppChrome.js"></script>
+    <script type="text/javascript" src="../App/Layout/header.js"></script>
     <!-- app controllers -->
     <script type="text/javascript" src="../App/MainController.js"></script>
+    <script type="text/javascript" src="../App/dashboard/dashboard.js"></script>
+    <script type="text/javascript" src="../App/Layout/quicklaunch.js"></script>
 
     <!-- app services -->
     <script type="text/javascript"  src="../App/Services/spContext.js"></script>
@@ -34,12 +45,20 @@
     
 </head>
 <body data-ng-app="FeedbackApp">
-    <div data-ng-include="'../App/Layout/spAppChrome.html'"></div>    
-    <div data-ng-controller="MainController">
-        UserName:
-        <div id="message">{{UserName}}</div> 
-        <div>{{ErrorMessage}}</div>
+    <div data-ng-include="'../App/Layout/spAppChrome.html'"></div>
+    <div id="s4-workspace" class="ms-core-overlay">
+        <div id="s4-bodyContainer">
+            <div data-ng-include="'../App/Layout/header.html'"></div>
+            <div id="contentRow">
+                <div data-ng-include="'../App/layout/quicklaunch.html'"></div>
+            </div>
+        </div>
     </div>
-    
+        <div data-ng-controller="MainController">
+            UserName:
+            <div id="message">{{UserName}}</div>
+            <div>{{ErrorMessage}}</div>
+        </div>
+
 </body>
 </html>

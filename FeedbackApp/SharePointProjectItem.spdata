@@ -9,5 +9,13 @@
     <ProjectItemFile Source="App\Layout\spAppChrome.html" Target="App\Layout\" Type="ElementFile" />
     <ProjectItemFile Source="App\Services\spContext.js" Target="App\Services\" Type="ElementFile" />
     <ProjectItemFile Source="App\util\jquery-extensions.js" Target="App\util\" Type="ElementFile" />
+    <ProjectItemFile Source="App\config.route.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\config.angular.http.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\header.html" Target="App\Layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\header.js" Target="App\Layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\dashboard\dashboard.html" Target="App\dashboard\" Type="ElementFile" />
+    <ProjectItemFile Source="App\dashboard\dashboard.js" Target="App\dashboard\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\quicklaunch.html" Target="App\Layout\" Type="ElementFile" />
+    <ProjectItemFile Source="App\Layout\quicklaunch.js" Target="App\Layout\" Type="ElementFile" />
   </Files>
 </ProjectItem>

@@ -8,5 +8,13 @@
     <File Path="App\Layout\spAppChrome.html" Url="App/Layout/spAppChrome.html" ReplaceContent="TRUE" />
     <File Path="App\Services\spContext.js" Url="App/Services/spContext.js" ReplaceContent="TRUE" />
     <File Path="App\util\jquery-extensions.js" Url="App/util/jquery-extensions.js" ReplaceContent="TRUE" />
+    <File Path="App\config.route.js" Url="App/config.route.js" ReplaceContent="TRUE" />
+    <File Path="App\config.angular.http.js" Url="App/config.angular.http.js" ReplaceContent="TRUE" />
+    <File Path="App\Layout\header.html" Url="App/Layout/header.html" ReplaceContent="TRUE" />
+    <File Path="App\Layout\header.js" Url="App/Layout/header.js" ReplaceContent="TRUE" />
+    <File Path="App\dashboard\dashboard.html" Url="App/dashboard/dashboard.html" ReplaceContent="TRUE" />
+    <File Path="App\dashboard\dashboard.js" Url="App/dashboard/dashboard.js" ReplaceContent="TRUE" />
+    <File Path="App\Layout\quicklaunch.html" Url="App/Layout/quicklaunch.html" ReplaceContent="TRUE" />
+    <File Path="App\Layout\quicklaunch.js" Url="App/Layout/quicklaunch.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

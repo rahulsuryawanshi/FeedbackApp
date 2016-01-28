@@ -4,7 +4,7 @@
      Name="FeedbackApp"
      ProductID="{5803d169-2946-4d07-8933-82f3df80ccd7}"
      Version="1.0.0.0"
-     SharePointMinVersion="15.0.0.0"
+     SharePointMinVersion="16.0.0.0"
 >
   <Properties>
     <Title>FeedbackApp</Title>
